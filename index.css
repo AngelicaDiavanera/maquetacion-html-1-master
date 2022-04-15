@@ -22,6 +22,10 @@ p {
   margin: 0;
 }
 
+a {
+  font-size: 24px;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -53,12 +57,17 @@ body {
   max-width: 1280px;
   padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.nav-section > div > div:nth-child(1) {
+  font-size: 80px;
 }
 
 .nav-section > div > div:nth-child(2) > a {
   padding-left: 17px;
-  align-items: center;
+  font-family: "dongle";
 }
 
 .main-section > div:nth-child(2) {
@@ -66,6 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 40px;
 }
 
 .main-section > div:nth-child(2) > div {
@@ -79,12 +89,18 @@ body {
   font-size: 40px;
 }
 
+.main-section > div:nth-child(2) > div > a {
+  font-family: "dongle";
+}
+
 .main-section > div:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
   padding: 15px 0;
+  font-family: "dongle";
 }
 
 .products-section {
@@ -102,46 +118,47 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 40px;
 }
+
 .products-section > div:nth-child(1) {
   background-image: url("img/imagen1.jpeg");
-  background-position: center;
   background-size: cover;
+  background-position: center;
 }
 
 .products-section > div:nth-child(2) {
   background: #e3a65a;
-  color: white;
 }
 
 .products-section > div:nth-child(3) {
   background: #eeaea5;
-  color: white;
 }
+
 .products-section > div:nth-child(4) {
-  background-image: url("img/w2.jpeg");
-  background-position: center;
+  background-image: url("img/mano.jpeg");
   background-size: cover;
+  background-position: center;
 }
+
 .products-section > div:nth-child(5) {
-  background-image: url("img/ladrillo.jpg");
-  background-position: center;
+  background-image: url("img/rosa.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .products-section > div:nth-child(6) {
   background: #cf8456;
-  color: white;
 }
 
 .products-section > div:nth-child(7) {
   background: #506243;
-  color: white;
 }
+
 .products-section > div:nth-child(8) {
   background-image: url("img/imagen\ 4.webp");
-  background-position: center;
   background-size: cover;
+  background-position: center;
 }
 
 .products-section > div:nth-child(2) > p,
@@ -149,6 +166,8 @@ body {
 .products-section div:nth-child(6) > p,
 .products-section div:nth-child(7) > p {
   text-align: center;
+  width: 100%;
+  max-width: 400px;
 }
 
 .products-section > div:nth-child(2) > p:nth-child(2),
@@ -156,7 +175,7 @@ body {
 .products-section div:nth-child(6) > p:nth-child(2),
 .products-section div:nth-child(7) > p:nth-child(2) {
   font-size: 40px;
-  padding: 0px 25px;
+  padding: 15px 25px;
 }
 
 .featured-section {
@@ -169,6 +188,7 @@ body {
 .featured-section > div {
   display: grid;
   grid-template-rows: auto 1fr;
+  padding: 100px;
 }
 
 .featured-section > div > div:nth-child(1) {
@@ -176,16 +196,13 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  padding-top: 90px;
-  width: 100%;
-  max-width: 800px;
+  padding-bottom: 70px;
 }
 
 .featured-section > div > div:nth-child(2) {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
-  padding: 90px;
   width: 100%;
   max-width: 800px;
 }
@@ -197,7 +214,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 60px;
+  padding: 90px 0;
+  line-height: 40px;
 }
 
 .get-started-section > div {
@@ -214,6 +232,7 @@ body {
 
 .get-started-section > div > a {
   color: white;
+  font-family: "dongle";
 }
 
 .follow-us-section {
@@ -234,6 +253,11 @@ body {
   max-width: 800px;
 }
 
+.follow-us-section > div > div:nth-child(1) {
+  font-family: "dongle";
+  font-size: 30px;
+}
+
 .follow-us-section > div > div:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -247,20 +271,53 @@ body {
   text-align: center;
 }
 
+.follow-us-section > div > div:nth-child(2) > div:nth-child(1) {
+  background-image: url("img/imagen1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
 .follow-us-section > div > div:nth-child(2) > div:nth-child(2) {
-  padding: 5px 0;
+  padding: 5px 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   background: #e3a65a;
   color: white;
 }
 
+.follow-us-section > div > div:nth-child(2) > div:nth-child(3) {
+  background-image: url("img/w2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.follow-us-section > div > div:nth-child(2) > div:nth-child(4) {
+  background-image: url("img/w3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.follow-us-section > div > div:nth-child(2) > div:nth-child(5) {
+  background-image: url("img/imagen\ 4.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 .follow-us-section
   > div
   > div:nth-child(2)
   > div:nth-child(2)
   > p:nth-child(1) {
+  font-size: 7px;
+}
+
+.follow-us-section
+  > div
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > p:nth-child(2) {
   font-size: 10px;
 }
 
@@ -269,17 +326,17 @@ body {
   > div:nth-child(2)
   > div:nth-child(2)
   > p:nth-child(3) {
-  font-size: 10px;
+  font-size: 7px;
 }
 
 .follow-us-section > div > div:nth-child(2) > div:nth-child(6) {
   background: #efaea6;
-  padding: 5px 0;
+  padding: 5px 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   color: white;
-  font-family: "dogle";
 }
 
 .follow-us-section
@@ -287,6 +344,14 @@ body {
   > div:nth-child(2)
   > div:nth-child(6)
   > p:nth-child(1) {
+  font-size: 7px;
+}
+
+.follow-us-section
+  > div
+  > div:nth-child(2)
+  > div:nth-child(6)
+  > p:nth-child(2) {
   font-size: 10px;
 }
 
@@ -295,7 +360,7 @@ body {
   > div:nth-child(2)
   > div:nth-child(6)
   > p:nth-child(3) {
-  font-size: 10px;
+  font-size: 7px;
 }
 
 .footer-section {
@@ -307,21 +372,24 @@ body {
 }
 
 .footer-section > div {
+  width: 100%;
+  max-width: 800px;
   display: grid;
   grid-template-columns: auto 1fr;
 }
 
 .footer-section > div > div:nth-child(1) > p {
   font-size: 40px;
-  padding: 50px;
+  padding: 25px;
 }
 
 .footer-section > div > div:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 25px;
-  font-family: "dogle";
+  font-family: "dongle";
   font-size: 20px;
+  line-height: 15px;
 }
 
 .footer-section > div > div:nth-child(2) > div {
