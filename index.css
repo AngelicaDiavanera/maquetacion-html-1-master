@@ -58,6 +58,7 @@ body {
 
 .nav-section > div > div:nth-child(2) > a {
   padding-left: 17px;
+  align-items: center;
 }
 
 .main-section > div:nth-child(2) {
@@ -102,6 +103,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.products-section > div:nth-child(1) {
+  background-image: url("img/imagen1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
 
 .products-section > div:nth-child(2) {
   background: #e3a65a;
@@ -112,6 +118,16 @@ body {
   background: #eeaea5;
   color: white;
 }
+.products-section > div:nth-child(4) {
+  background-image: url("img/w2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.products-section > div:nth-child(5) {
+  background-image: url("img/ladrillo.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .products-section > div:nth-child(6) {
   background: #cf8456;
@@ -121,6 +137,11 @@ body {
 .products-section > div:nth-child(7) {
   background: #506243;
   color: white;
+}
+.products-section > div:nth-child(8) {
+  background-image: url("img/imagen\ 4.webp");
+  background-position: center;
+  background-size: cover;
 }
 
 .products-section > div:nth-child(2) > p,
@@ -156,6 +177,8 @@ body {
   align-items: center;
   font-size: 40px;
   padding-top: 90px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .featured-section > div > div:nth-child(2) {
@@ -163,6 +186,8 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
   padding: 90px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .get-started-section {
@@ -204,6 +229,9 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 25px;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .follow-us-section > div > div:nth-child(2) {
@@ -281,8 +309,6 @@ body {
 .footer-section > div {
   display: grid;
   grid-template-columns: auto 1fr;
-  width: 100%;
-  max-width: 80px;
 }
 
 .footer-section > div > div:nth-child(1) > p {
@@ -293,7 +319,9 @@ body {
 .footer-section > div > div:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 50px;
+  padding: 25px;
+  font-family: "dogle";
+  font-size: 20px;
 }
 
 .footer-section > div > div:nth-child(2) > div {
